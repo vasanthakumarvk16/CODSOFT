@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Calulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   <div class="main">
+    <center><h1>CALCULATOR</h1></center>
+      <input type="text" id = 'res'>
+      <div class="btn">
+         <!-- <button onclick="Clear()">C</button> -->
+         <input type="button" value = 'AC' onclick = "Clear()">
+         <input type="button" value = 'C' onclick ="Back('←')">
+         <input type="button" value = '%' onclick = "Display('%')">
+         <input type="button" value = '/' onclick = "Display('/')">
+         <br>
+         <input type="button" value = '7' onclick = "Display('7')">
+         <input type="button" value = '8' onclick = "Display('8')">
+         <input type="button" value = '9' onclick = "Display('9')">
+         <input type="button" value = '*' onclick = "Display('*')">
+         <br>
+         <input type="button" value = '4' onclick = "Display('4')">
+         <input type="button" value = '5' onclick = "Display('5')">
+         <input type="button" value = '6' onclick = "Display('6')">
+         <input type="button" value = '-' onclick = "Display('-')">
+         <br>
+         <input type="button" value = '1' onclick = "Display('1')">
+         <input type="button" value = '2' onclick = "Display('2')">
+         <input type="button" value = '3' onclick = "Display('3')">
+         <input type="button" value = '+' onclick = "Display('+')">
+         <br>
+         <input type="button" value = '.' onclick = "Display('.')">
+         <input type="button" value = '0' onclick = "Display('0')">
+         <input type="button" value = '00'onclick = "Display('00')">
+         <input type="button" value = '=' onclick = "Result()">
+      </div>
+   </div>
+</body>
+</html>
